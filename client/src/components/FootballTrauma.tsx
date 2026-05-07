@@ -22,12 +22,12 @@ export default function FootballTrauma() {
       })
       .catch(() => {
         setBanter({
-          arsenal: "Arsenal jsou podezřele kompetentní. Znovu.",
+          arsenal: "Arsenal jsou top of the league",
           united: "United rekonstruují. Stále.",
           rivalry: "kontrast je krutý.",
-          notifications: ["VAR detekoval utrpení", "gól inkasován 90+7", "krizové setkání"],
+          notifications: ["arsenal zase vyhráli", " United: gól inkasován 90+7", "united zase v pici"],
           garnacho: "Subject 49 dorazil na Stamford Bridge. Todd Boehly si odškrtl další políčko.",
-          gyokeres: "Gyökeres: 43 gólů. Šeško: zvažoval. Výsledek jasný.",
+          gyokeres: "Gyökeres: 43 gólů. Šeško: finished. Výsledek jasný.",
         })
         setLoading(false)
       })
